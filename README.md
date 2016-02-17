@@ -1,12 +1,12 @@
 # SCSS-lint Regex
 
-I got tired of cleaning Sass codebase by hand to make them compliant with [SCSS-lint](https://github.com/brigade/scss-lint) so I wrote a set of regular expressions to do just that.
+I got tired of cleaning Sass codebases by hand to make them compliant with [SCSS-lint](https://github.com/brigade/scss-lint) so I wrote a set of regular expressions to do just that. 
 
-The point is to be able to perform a quick search and replace to make the whole codebase compliant to a specific rule (when possible of course). Turned out to be extremely easy in Sublime Text for instance.
+The point is to be able to perform a quick search and replace to make the whole codebase compliant to a specific rule from SCSS-lint — when possible of course. Turned out to be extremely easy in Sublime Text for instance (see following screenshot).
 
 ![Search and replace in Sublime Text](http://i.imgur.com/hnWTib8.png)
 
-If you suspect a regular expression to be incorrect or able to be optimised, please by all mean open a new issue and let’s discuss it!
+If you suspect a regular expression to be incorrect, dangerous or improvable, please by all mean open a new issue so we can discuss it!
 
 **[BangFormat](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md#bangformat)**
 
@@ -24,7 +24,7 @@ A bit complex, but could probably be done.
 
 **[DebugStatement](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md#debugstatement)**
 
-* Search: `@debug.*\n`
+* Search: `^@debug.+$`
 * Replace: nothing
 
 **[DuplicateProperty](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md#duplicateproperty)**
