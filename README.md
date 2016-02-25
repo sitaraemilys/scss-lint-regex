@@ -70,8 +70,8 @@ Could theoretically be possible I guess.
 
 **[LeadingZero](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md#leadingzero)**
 
-* Search: `\s+\.(\d+)`
-* Replace: `\ 0.\1`
+* Search: `\s+0\.(\d+)`
+* Replace: `\ .\1`
 
 **[NameFormat](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md#nameformat)**
 
