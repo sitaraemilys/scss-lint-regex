@@ -70,6 +70,13 @@ Could theoretically be possible I guess.
 
 **[LeadingZero](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md#leadingzero)**
 
+*Remove zeros:*
+
+* Search: `\s+0\.(\d+)`
+* Replace: `\ .\1`
+
+*Include zeros:*
+
 * Search: `\s+\.(\d+)`
 * Replace: `\ 0.\1`
 
