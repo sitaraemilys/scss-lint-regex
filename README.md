@@ -91,7 +91,7 @@ Could theoretically be possible I guess.
 
 **[PseudoElement](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md#pseudoelement)**
 
-* Search: `([^:]):(before|after|first-line|first-letter)`
+* Search: `([^:]):(after|backdrop|before|content|first-letter|first-line|placeholder|selection|shadow)`
 * Replace: `\1::\2`
 
 **[Shorthand](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md#shorthand)**
