@@ -15,8 +15,8 @@ If you suspect a regular expression to be incorrect, dangerous or improvable, pl
 
 **[BorderZero](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md#borderzero)**
 
-* Search: `border:\s*none`
-* Replace: `border: 0`
+* Search: `(border(-bottom|-left|-right|-top)?):\s*none`
+* Replace: `\1: 0`
 
 **[Comment](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md#comment)**
 
